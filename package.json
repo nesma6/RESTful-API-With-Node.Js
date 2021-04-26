@@ -1,20 +1,23 @@
 {
   "name": "first-app",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "firebase": "^8.4.2",
     "joi": "^13.7.0",
     "multer": "^1.4.2",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
